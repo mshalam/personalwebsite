@@ -1,10 +1,8 @@
 {
-  "favicons/favicon.png": "favicons/.cache",
   "main.css": "build-html-styles.css",
   "main.css.map": "build-html-styles.css.map",
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/NLaureano_Resume.pdf": "static/NLaureano_Resume.ef07b88a.pdf",
   "static/accessQR.png": "static/accessQR.19cb48ef.png",
   "static/amex.png": "static/amex.c9191e24.png",
   "static/api.png": "static/api.91af7af5.png",
@@ -23,7 +21,6 @@
   "static/mizuho.png": "static/mizuho.f3219dfc.png",
   "static/murex.jpg": "static/murex.73d80ece.jpg",
   "static/node.png": "static/node.4cac309e.png",
-  "static/noelle.jpg": "static/noelle.40b25272.jpg",
   "static/nyu.png": "static/nyu.ca8396e4.png",
   "static/plane.png": "static/plane.a4683c97.png",
   "static/porterandsail.png": "static/porterandsail.dfd9a50b.png",
