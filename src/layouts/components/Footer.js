@@ -6,13 +6,13 @@ import { email, linkedin, github } from '../images/footer'
 
 const Footer = () => (
   <div className={styles.imgsContainer}>
-    <a href="mailto:nrlaureano@gmail.com?subject=HELLO!">
+    <a href="mailto:mshalam04@gmail.com?subject=HELLO!">
       <img src={email} className={styles.iconImg} />
     </a>
-    <a href="https://www.linkedin.com/in/noellelaureano/" target="_blank">
+    <a href="https://www.linkedin.com/in/mauriceshalam/" target="_blank">
       <img src={linkedin} className={styles.iconImg} />
     </a>
-    <a href="https://github.com/nrl240" target="_blank">
+    <a href="https://github.com/mshalam" target="_blank">
       <img src={github} className={styles.iconImg} />
     </a>
   </div>

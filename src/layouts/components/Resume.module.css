@@ -2,52 +2,6 @@
 
 .resumeSection {
   padding: 0 1em;
-
-  background: rgba(231, 56, 39, 1);
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(231, 56, 39, 1) 0%,
-    rgba(231, 56, 39, 1) 28%,
-    rgba(247, 72, 78, 1) 86%,
-    rgba(247, 72, 78, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right bottom,
-    color-stop(0%, rgba(231, 56, 39, 1)),
-    color-stop(28%, rgba(231, 56, 39, 1)),
-    color-stop(86%, rgba(247, 72, 78, 1)),
-    color-stop(100%, rgba(247, 72, 78, 1))
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    rgba(231, 56, 39, 1) 0%,
-    rgba(231, 56, 39, 1) 28%,
-    rgba(247, 72, 78, 1) 86%,
-    rgba(247, 72, 78, 1) 100%
-  );
-  background: -o-linear-gradient(
-    -45deg,
-    rgba(231, 56, 39, 1) 0%,
-    rgba(231, 56, 39, 1) 28%,
-    rgba(247, 72, 78, 1) 86%,
-    rgba(247, 72, 78, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    -45deg,
-    rgba(231, 56, 39, 1) 0%,
-    rgba(231, 56, 39, 1) 28%,
-    rgba(247, 72, 78, 1) 86%,
-    rgba(247, 72, 78, 1) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(231, 56, 39, 1) 0%,
-    rgba(231, 56, 39, 1) 28%,
-    rgba(247, 72, 78, 1) 86%,
-    rgba(247, 72, 78, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#f7484e', GradientType=1 );
 }
 
 @media only screen and (min-width: 950px) {
@@ -61,7 +15,7 @@
 .resumeBar {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: rgba(231, 56, 39, 1);
   align-items: center;
 }
 
@@ -87,12 +41,11 @@
 
 .tapForDetails {
   font-family: 'Poiret One', cursive;
-  letter-spacing: .5px;
-  color: #fff;
+  letter-spacing: 0.5px;
+  color: rgba(231, 56, 39, 1);
   text-align: center;
   padding: 1em 0 0 0;
 }
-
 
 /* Timeline */
 
@@ -119,7 +72,7 @@
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: rgba(231, 56, 39, 1);
 }
 
 /* Business Cards */
@@ -140,7 +93,7 @@
 }
 
 .cdTimelineImg.cdTimelineImgPicture {
-  background: #fff;
+  background: rgba(231, 56, 39, 1);
 }
 
 .cdTimelineImg {
@@ -150,7 +103,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 0 4px rgba(231, 56, 39, 1), inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -213,9 +166,9 @@
 }
 
 .jobTopContainer img {
-  max-height: 25px;
-  max-width: 100px;
-  margin: 0 0 0 .5em;
+  max-height: 35px;
+  max-width: 115px;
+  margin: 0 0 0 0.5em;
 }
 
 .cdTimelineReadMore {
@@ -235,9 +188,10 @@
 .cdTimelineDate {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   float: right;
   padding: 0.4em 0 0.5em;
+  color: rgba(231, 56, 39, 1);
 }
 
 a {
@@ -304,7 +258,7 @@ a {
     left: auto;
     right: 122%;
     text-align: right;
-    color: #fff;
+    color: rgba(231, 56, 39, 1);
   }
 
   .cdTimelineContent::before {
@@ -325,7 +279,7 @@ a {
     width: 100%;
     left: 122%;
     top: 6px;
-    color: #fff;
+    color: rgba(231, 56, 39, 1);
   }
 }
 

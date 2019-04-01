@@ -14,3 +14,6 @@ export { default as api2Img } from './api2.png'
 export { default as api3Img } from './api3.png'
 export { default as murexImg } from './murex.jpg'
 
+export { default as lightningImg } from './lightning.png'
+export { default as reduxImg } from './redux.png'
+export { default as twilioImg } from './twilio.png'

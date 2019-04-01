@@ -9,7 +9,7 @@ let destination = 0
 let speed = 15
 let scroller = null
 
-const initScroll = (elementId) => {
+const initScroll = elementId => {
   destination = document.getElementById(elementId).offsetTop
   scroller = setTimeout(() => {
     initScroll(elementId)
@@ -36,11 +36,10 @@ const toTop = () => {
 const Header = () => (
   <header className={styles.header}>
     <div className={styles.titleNavWrapper}>
-
       <div className={styles.nameContainer}>
         <h1 className={styles.siteTitle}>
           <a href="/" id="top">
-            NOELLE LAUREANO
+            Maurice Shalam
           </a>
         </h1>
       </div>
@@ -50,31 +49,22 @@ const Header = () => (
           <div className={styles.navWrapper}>
             <ul>
               <li>
-                <a
-                  onClick={() => initScroll('projects')}
-                  href="#projects"
-                >
+                <a onClick={() => initScroll('projects')} href="#projects">
                   PROJECTS
                 </a>
               </li>
               <li>
-                <a
-                  onClick={() => initScroll('resume')}
-                  href="#resume"
-                >
+                <a onClick={() => initScroll('resume')} href="#resume">
                   EXPERIENCE
                 </a>
               </li>
               <li>
-                <a href="mailto:nrlaureano@gmail.com?subject=HELLO!">
-                  CONTACT
-                </a>
+                <a href="mailto:mshalam04@gmail.com?subject=HELLO!">CONTACT</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
-
     </div>
   </header>
 )

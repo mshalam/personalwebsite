@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import React from 'react'
 import Link from 'gatsby-link'
 
@@ -14,9 +15,10 @@ import {
   bankImg,
   fundImg,
   diplomaImg,
+  amexImg,
 } from '../images/resume'
 
-import { chevronWhite } from '../images'
+import { chevronBlack } from '../images'
 
 import { nlaureanoResume } from '../../NLaureano_Resume.pdf'
 
@@ -83,40 +85,26 @@ export default () => (
     <div className={styles.resumeBar}>
       <h1>Experience</h1>
       <a onClick={() => toTop('top')} href="#">
-        <img src={chevronWhite} />
+        <img src={chevronBlack} />
       </a>
     </div>
     <section className={`${styles.cdTimeline} jsCdTimeline`}>
       <div className={styles.tapForDetails}>
-        <span>tap card for details</span>
+        <span>tap title for details</span>
       </div>
       <div className={styles.cdTimelineContainer}>
-        <ResumeItem
-          id="PorterAndSail"
-          companyName="Porter & Sail"
-          jobTitle="Software Engineer"
-          department=""
-          group=""
-          dates="Aug 2018 - Present"
-          descriptions={[ 'A fresh way to book, plan and experience the modern hotel stay. Download the app!'
-          ]}
-          siteUrl="https://www.porterandsail.com/"
-          logo={porterandsailImg}
-          timelineIcon={browserImg}
-        />
-
         <ResumeItem
           id="FullstackTF"
           companyName="Fullstack Academy"
           jobTitle="Software Engineering Teaching Fellow"
-          department="NYC Web Development Fellowship"
-          group="Software Engineering Immersive"
-          dates="Apr 2018 - Jul 2018"
+          department=""
+          group=""
+          dates="Nov 2018 - Jul 2019"
           descriptions={[
-            'Mentored 35 students on development concepts, algorithms, debugging strategies, software architecture and clean code structure',
-            'Conducted technical interviews for applicants',
-            'Led interactive reviews for students to solidify material ',
-            'Directed team building exercises to strengthen class cohesion and community',
+            'Advised 2 engineering teams by leading standup and conducting code reviews',
+            'Pair-programmed and explained technical concepts of the stack to 60 students daily',
+            'Led admissions interviews in Javascript for prospective students 3 times a week ',
+            'Taught algorithm approaches weekly to 60 students',
           ]}
           siteUrl="https://www.fullstackacademy.com/"
           logo={fsaImg}
@@ -124,84 +112,32 @@ export default () => (
         />
 
         <ResumeItem
-          id="MizuhoRM"
-          companyName="Mizuho Bank, Ltd"
-          jobTitle="Risk Management Officer"
-          department="Risk Management Department"
-          group="Portfolio Analytics & Modeling"
-          dates="Apr 2017 - Jan 2018"
+          id="Amex"
+          companyName="American Express"
+          jobTitle="Software Engineer"
+          department=""
+          group=""
+          dates="Aug 2016 - Aug 2018"
           descriptions={[
-            'Built and maintained an automated, comprehensive daily risk management dashboard for C-Suite executives that utilizes and manipulates data fed from several files, Bloomberg API, and Microsoft SQL database tables',
-            'Authored monthly cross-asset market and macroeconomic recaps for senior management risk committee meetings',
-            'Performed data cleansing on large data sets in order to identify and correct erroneous records',
+            'Contributed to design, development, debugging, deploying and documenting software and systems that met the needs of customer-facing applications, business applications, and internal end user applications',
+            'Responsible for integration of Big Data ETL system using Java to create efficient and accessible data',
+            'Created and became the Subject Matter Expert for the Elastic Search Stack for easily searchable and visualized logs; automated job runs and designed complex workflows for scheduled unix and ETL jobs',
+            'Held learning sessions for On-Shore, Off-Shore, and Contractors to train on Amex’s Internal tools',
+            'Responsible for setting up and managing the Infrastructure Across multiple teams',
           ]}
           siteUrl="https://map-it-fsa.firebaseapp.com/"
-          logo={mizuhoImg}
-          timelineIcon={bankImg}
-        />
-
-        <ResumeItem
-          id="MizuhoPMDS"
-          companyName="Mizuho Bank, Ltd"
-          jobTitle="Portfolio Management Officer"
-          department="Portfolio Management Department"
-          group="Strategic Credit Hedge"
-          dates="Sep 2015 - Mar 2017"
-          descriptions={[
-            'Developed and automated portfolio analytics for the group’s $55.6 billion loan portfolio in order to determine potential trade ideas based on single-name CDS relative value',
-            'Built an archive and tracking tool to review trade performance using Bloomberg API and VBA',
-            'Created a post-trade evaluation template, which pulls in and manipulates data from the archive in order to identify and attribute performance across an array of metrics versus a relevant benchmark',
-            'Tested portfolio management system patches by drawing up test scenarios, simulating dummy trades and debugging results with third party vendor, Murex, and internal technology personnel',
-            'Created a tool to track research blog traffic and identify users using VBA and Python knowledge',
-            'Generated a portfolio profit and loss simulation report to assess potential market scenarios',
-            'Produced a number of comprehensive manuals outlining procedures and operations',
-          ]}
-          siteUrl="https://saucesome-fsa.herokuapp.com/"
-          logo={mizuhoImg}
-          timelineIcon={bankImg}
-        />
-
-        <ResumeItem
-          id="LordAbbettAT"
-          companyName="Lord, Abbett & Co LLC"
-          jobTitle="Associate Trader"
-          department="Fixed Income Mutual Funds"
-          group="Municipal Bonds"
-          dates="Oct 2013 - Sep 2015"
-          descriptions={[
-            'Developed and maintain a database of obligors by security in order to analyze differences in market value weighting and duration contribution between each fund and its internal benchmark',
-            'Maintained a database of new issue pricing scales to determine the maximum returning maturity, and evaluate spreads versus other new issue deals and existing markets in the secondary',
-            'Filtered sell-side prices, market information and research to identify relative value opportunities and relay information to portfolio managers with $10 billion in assets under management',
-            'Analyzed performance attribution using Barclays POINT to distinguish deficiencies and strengths in fund asset allocation and security selection on a monthly, quarterly and yearly basis',
-          ]}
-          siteUrl="https://symbalplayer.firebaseapp.com/"
-          logo={lordabbettImg}
-          timelineIcon={fundImg}
-        />
-
-        <ResumeItem
-          id="LordAbbettPA"
-          companyName="Lord, Abbett & Co LLC"
-          jobTitle="Portfolio Analyst"
-          department="Fixed Income Mutual Funds"
-          group="Municipal Bonds"
-          dates="Jun 2011 - Sep 2013"
-          descriptions={[
-            'Constructed a database using VBA and Barclays POINT to present and maintain weekly year-to-date total return changes within the Barclays Aggregate and High Yield indices using several partitions',
-            'Collaborated with the technology team to create a heat map that highlights fund versus internal index differences in yield curve, quality, time to next call, price, sector, and state positioning',
-          ]}
-          logo={lordabbettImg}
-          timelineIcon={fundImg}
+          logo={amexImg}
+          timelineIcon={browserImg}
         />
 
         <ResumeItem
           id="NYU"
           companyName="New York University"
           jobTitle="Bachelor of Arts"
-          department="Economics, College of Arts & Science"
-          group="Business Studies, Stern School of Business "
-          dates="May 2011"
-          descriptions={['NYU Florence semester abroad']}
+          department="Computer Science, College of Arts & Science"
+          group="Business of Technology, Stern School of Business "
+          dates="May 2016"
+          descriptions={[]}
           logo={nyuImg}
           timelineIcon={diplomaImg}
         />
