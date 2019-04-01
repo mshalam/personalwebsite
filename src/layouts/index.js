@@ -17,10 +17,10 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="Noelle Laureano"
+      title="Maurice Shalam"
       meta={[
         { name: 'description', content: 'Check me out' },
-        { name: 'keywords', content: 'noelle laureano' },
+        { name: 'keywords', content: 'Maurice Shalam' },
       ]}
     />
     <Header />

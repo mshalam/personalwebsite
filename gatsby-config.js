@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Noelle Laureano',
+    title: 'Maurice Shalam',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/favicon.png",
+        logo: './src/favicon.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -19,9 +19,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
-    }
+          windows: false,
+        },
+      },
+    },
   ],
 }

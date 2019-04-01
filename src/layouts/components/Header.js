@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './Header.module.css'
-import noelle from '../images/noelle.jpg'
 import { Container } from './'
 
 let marginY = 0

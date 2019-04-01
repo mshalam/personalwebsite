@@ -20,8 +20,6 @@ import {
 
 import { chevronBlack } from '../images'
 
-import { nlaureanoResume } from '../../NLaureano_Resume.pdf'
-
 let marginY = 0
 let destination = 0
 let speed = 20

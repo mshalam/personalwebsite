@@ -15,7 +15,7 @@
 .resumeBar {
   display: flex;
   justify-content: space-between;
-  color: rgba(231, 56, 39, 1);
+  color: #21d0b2;
   align-items: center;
 }
 
@@ -42,7 +42,7 @@
 .tapForDetails {
   font-family: 'Poiret One', cursive;
   letter-spacing: 0.5px;
-  color: rgba(231, 56, 39, 1);
+  color: #21d0b2;
   text-align: center;
   padding: 1em 0 0 0;
 }
@@ -72,7 +72,7 @@
   left: 18px;
   height: 100%;
   width: 4px;
-  background: rgba(231, 56, 39, 1);
+  background: #21d0b2;
 }
 
 /* Business Cards */
@@ -93,7 +93,7 @@
 }
 
 .cdTimelineImg.cdTimelineImgPicture {
-  background: rgba(231, 56, 39, 1);
+  background: #21d0b2;
 }
 
 .cdTimelineImg {
@@ -103,7 +103,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(231, 56, 39, 1), inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 0 4px #21d0b2, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -191,7 +191,7 @@
   letter-spacing: 0.5px;
   float: right;
   padding: 0.4em 0 0.5em;
-  color: rgba(231, 56, 39, 1);
+  color: #21d0b2;
 }
 
 a {
@@ -258,7 +258,7 @@ a {
     left: auto;
     right: 122%;
     text-align: right;
-    color: rgba(231, 56, 39, 1);
+    color: #21d0b2;
   }
 
   .cdTimelineContent::before {
@@ -279,7 +279,7 @@ a {
     width: 100%;
     left: 122%;
     top: 6px;
-    color: rgba(231, 56, 39, 1);
+    color: #21d0b2;
   }
 }
 
