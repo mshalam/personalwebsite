@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Maurice Shalam',
   },
-  pathPrefix: '/',
+  pathPrefix: '/personalwebsite',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify',
