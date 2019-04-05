@@ -21,7 +21,7 @@ Unix • Git • Heroku • FullStack Development • Test Driven Development (T
 <img src='https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/lightText.png' width='75%' hegiht='75%'>
 
 
-A text messaging client that allows users to send and receive bitcoin instantly over text message
+**A text messaging client that allows users to send and receive bitcoin instantly over text message**
 
 • Developed with the Bitcoin Lightning Network, Twilio, Node, Express, React and Postgres
 
@@ -35,7 +35,7 @@ A text messaging client that allows users to send and receive bitcoin instantly 
 
 <img src='https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/accessQR.png' width='75%' hegiht='75%'>
 
-A website designed to generate email friendly ID Cards for tenants and guest of buildings
+**A website designed to generate email friendly ID Cards for tenants and guest of buildings**
 
 • Developed with React, Redux, Node, Express, Postgres, and QR Codes
 
