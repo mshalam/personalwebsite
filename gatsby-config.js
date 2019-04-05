@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Maurice Shalam',
     image: './src/layouts/images/profile_pic.jpg',
+    description: 'Maurice Shalam Personal Website',
+    url: 'https://mauriceshalam.com/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
