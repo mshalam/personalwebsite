@@ -1,6 +1,6 @@
 # Maurice Shalam Personal Webiste
 
-(https://MauriceShalam.com "MauriceShalam.com")
+https://MauriceShalam.com
 
 ## Hey there! I'm Maurice Shalam, a Full-Stack Software Engineer
 
