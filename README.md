@@ -16,6 +16,8 @@ Unix • Git • Heroku • FullStack Development • Test Driven Development (T
 
 ## Projects
 
+### LightText
+
 <img src='https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/lightText.png' width='75%' hegiht='75%'>
 
 
@@ -23,5 +25,14 @@ A text messaging client that allows users to send and receive bitcoin instantly 
 
 • Developed with the Bitcoin Lightning Network, Twilio, Node, Express, React and Postgres
 • Setup a full Bitcoin Lightning Node for instant transactions of Bitcoin
-
 • Implemented text messaging through Twilio’s API, for a minimalist and easily understandable experience
+
+### Access QR
+
+<img src='https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/accessQR.png' width='75%' hegiht='75%'>
+
+A website designed to generate email friendly ID Cards for tenants and guest of buildings
+
+• Developed with React, Redux, Node, Express, Postgres, and QR Codes
+• Implemented an intuitive user experience with an elegant design
+• Fully customizable to the building or company using it
