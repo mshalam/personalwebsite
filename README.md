@@ -1,4 +1,4 @@
-# Maurice Shalam Personal Webiste
+# Maurice Shalam Personal Website
 
 https://MauriceShalam.com
 
