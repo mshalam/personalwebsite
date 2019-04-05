@@ -335,7 +335,7 @@ a {
 /* Collapsible Content & Inner Content */
 
 .collapsibleContent {
-  max-height: 0px;
+  max-height: 1000px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
   border-bottom-right-radius: 7px;
