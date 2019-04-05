@@ -1,26 +1,16 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Maurice Shalam Personal Webiste
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+MauriceShalam.com
 
-## Install
+## Hey there! I'm Maurice Shalam, a Full-Stack Software Engineer
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+2 years experience at American Express as a Software Engineer, automating financial reports and integrating Big Data ETL systems. I'm looking forward to expanding my knowledge of software development and leveraging my skills in programming to explore careers in the tech industry
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+## Programming Languages
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
+Java • JavaScript • React • Redux • Node • Express • SQL • HTML • CSS
 
-## Deploy
+## Proficient In
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Unix • Git • Heroku • FullStack Development • Test Driven Development (TDD) • Agile Methodology
+
