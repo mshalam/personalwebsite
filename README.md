@@ -16,7 +16,8 @@ Unix • Git • Heroku • FullStack Development • Test Driven Development (T
 
 ## Projects
 
-![LightText screenshot] (https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/lightText.png)
+<img src='https://github.com/mshalam/personalwebsite/blob/master/src/layouts/images/projects/lightText.png' width='35%' hegiht='35%'>
+
 
 A text messaging client that allows users to send and receive bitcoin instantly over text message
 
