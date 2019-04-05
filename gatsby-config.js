@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Maurice Shalam',
+    image: './src/layouts/images/profile_pic.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
