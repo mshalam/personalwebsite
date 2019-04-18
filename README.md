@@ -43,4 +43,4 @@ Unix • Git • Heroku • FullStack Development • Test Driven Development (T
 • Implemented an intuitive user experience with an elegant design
 
 
-• Fully customizable to the building or company using it
+• Fully customizable to the building or company using it 
