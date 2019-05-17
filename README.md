@@ -28,7 +28,7 @@ Unix • Git • Heroku • FullStack Development • Test Driven Development (T
 
 • Setup a full Bitcoin Lightning Node for instant transactions of Bitcoin
 
-
+ 
 • Implemented text messaging through Twilio’s API, for a minimalist and easily understandable experience
 
 ### Access QR
