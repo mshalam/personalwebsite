@@ -1,4 +1,5 @@
 {
+  "favicons/favicon.png": "favicons/.cache",
   "main.css": "build-html-styles.css",
   "main.css.map": "build-html-styles.css.map",
   "main.js": "render-page.js",
