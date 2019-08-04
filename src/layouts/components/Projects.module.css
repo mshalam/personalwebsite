@@ -250,8 +250,8 @@
   display: block;
   margin: 0;
   /* max-width: 1000px; */
-  max-width: 1000px;
-  max-height: 300px;
+  max-width: 100%;
+  max-height: 100%;
   /* width: 100%; */
   /* justify-content: space-between; */
 }
@@ -280,8 +280,10 @@
 }
 
 .techStack img {
-  width: 6em;
-  max-width: 100%;
+  /* width: 6em;
+  max-width: 100%; */
+  width: 20%;
+  height: 20%;
   vertical-align: middle;
-  margin: 0.75em 0.75em;
+  margin: 0.7em 0.7em;
 }

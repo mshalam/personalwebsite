@@ -109,7 +109,6 @@ export default () => (
           reactImg,
           nodeImg,
           reduxImg,
-          herokuImg,
           postgresqlImg,
         ]}
       />

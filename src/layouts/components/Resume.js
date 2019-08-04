@@ -16,6 +16,7 @@ import {
   fundImg,
   diplomaImg,
   amexImg,
+  etradeImg,
 } from '../images/resume'
 
 import { chevronBlack } from '../images'
@@ -88,9 +89,22 @@ export default () => (
     </div>
     <section className={`${styles.cdTimeline} jsCdTimeline`}>
       <div className={styles.tapForDetails}>
-        <span>tap title for details</span>
+        <span />
       </div>
       <div className={styles.cdTimelineContainer}>
+        <ResumeItem
+          id="Etrade"
+          companyName="E-Trade"
+          jobTitle="Full Stack Software Engineer"
+          department=""
+          group=""
+          dates="Aug 2019 - Present"
+          descriptions={[]}
+          siteUrl="https://etrade.com"
+          logo={etradeImg}
+          timelineIcon={browserImg}
+        />
+
         <ResumeItem
           id="FullstackTF"
           companyName="Fullstack Academy"
