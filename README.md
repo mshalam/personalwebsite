@@ -4,7 +4,7 @@ https://MauriceShalam.com
 
 ## Hey there! I'm Maurice Shalam, a Full-Stack Software Engineer
 
-2 years experience at American Express as a Software Engineer, automating financial reports and integrating Big Data ETL systems. I'm looking forward to expanding my knowledge of software development and leveraging my skills in programming to explore careers in the tech industry
+I'm looking forward to expanding my knowledge of software development and leveraging my skills in programming to explore careers in the tech industry
 
 ## Programming Languages
 
