@@ -95,7 +95,7 @@ export default () => (
         <ResumeItem
           id="Etrade"
           companyName="E-Trade"
-          jobTitle="Full Stack Software Engineer"
+          jobTitle="Staff Full Stack Software Engineer"
           department=""
           group=""
           dates="Feb 2019 - Present"
