@@ -98,28 +98,14 @@ export default () => (
           jobTitle="Full Stack Software Engineer"
           department=""
           group=""
-          dates="Aug 2019 - Present"
-          descriptions={[]}
+          dates="Feb 2019 - Present"
+          descriptions={[
+            'Converted etrade.com into a Single Page Application (SPA) using REACT',
+            'Automated workflows and processes using Java on the backend',
+            'Developed APIs for the platform and solved scaling challenges',
+          ]}
           siteUrl="https://etrade.com"
           logo={etradeImg}
-          timelineIcon={browserImg}
-        />
-
-        <ResumeItem
-          id="FullstackTF"
-          companyName="Fullstack Academy"
-          jobTitle="Software Engineering Teaching Fellow"
-          department=""
-          group=""
-          dates="Nov 2018 - Jul 2019"
-          descriptions={[
-            'Advised 2 engineering teams by leading standup and conducting code reviews',
-            'Pair-programmed and explained technical concepts of the stack to 60 students daily',
-            'Led admissions interviews in Javascript for prospective students 3 times a week ',
-            'Taught algorithm approaches weekly to 60 students',
-          ]}
-          siteUrl="https://www.fullstackacademy.com/"
-          logo={fsaImg}
           timelineIcon={browserImg}
         />
 
@@ -129,7 +115,7 @@ export default () => (
           jobTitle="Software Engineer"
           department=""
           group=""
-          dates="Aug 2016 - Aug 2018"
+          dates="Aug 2016 - Dec 2018"
           descriptions={[
             'Contributed to design, development, debugging, deploying and documenting software and systems that met the needs of customer-facing applications, business applications, and internal end user applications',
             'Responsible for integration of Big Data ETL system using Java to create efficient and accessible data',
